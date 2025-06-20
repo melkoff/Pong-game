@@ -15,7 +15,7 @@ let ballSpeedX = 5 * (Math.random() > 0.5 ? 1 : -1);
 let ballSpeedY = 3 * (Math.random() > 0.5 ? 1 : -1);
 
 const paddleSpeed = 6;
-const aiDifficulty = 0.08; // between 0 (easy) and 1 (impossible)
+const aiDifficulty = 1; // between 0 (easy) and 1 (impossible)
 
 function drawRect(x, y, w, h, color) {
     ctx.fillStyle = color;
